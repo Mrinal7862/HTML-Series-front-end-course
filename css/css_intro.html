@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .two{
+            background-color: lightcoral;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .standard2{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: lightblue;
+            border-radius: 100%;
+            padding: 20px;
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            
+        }
+        .standard2:hover{
+            background-color: darkblue;
+            color: white;
+            transition: ease-in-out 0.3s;
+            cursor: pointer;
+            height: 200px;
+            width: 200px;
+        }
+
+        /* #one{
+            background-color: lightgreen;
+            color: black;
+            border-radius: 100%;
+            padding: 20px;
+            text-align: center;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <h1>class 2</h1>
+    <div class="two">
+        <h2 class="standard2" id="one">1</h1>
+            <h2 class="standard2" id="two">2</h2>
+        <h2 class="standard2" id="three">3</h2>
+    </div>
+
+
+    <!-- <h1>Hello ramesh this is suresh</h1    > -->
+</body>
+<script>
+    const one = document.getElementById('one');
+    one.addEventListener('click', function(){
+        one.style.backgroundColor = "purple"
+        
+        one.style.color = "white"
+    })
+
+    const two = document.getElementById('two');
+    two.addEventListener('click', function(){
+        two.style.backgroundColor = "pink"
+        two.style.color = "white";
+        // one.style
+    })
+</script>
+</html>
