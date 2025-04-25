@@ -1,0 +1,75 @@
+.juice{
+    display: inline;
+    color:rgb(225, 8, 8);
+    background-color:rgba(188, 122, 22, 0.288);
+    cursor: pointer;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+#juice {
+    color: darkred;
+    background-color: darkgray;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    border: 5px solid rgb(225, 65, 201);
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .padd{
+    background-color: bisque;
+    border: 10px double rgb(179, 8, 8);
+    border-top-right-radius: 10px;
+    font-size: 60px;
+
+}
+
+  .samsad{
+    border: 10px solid rgb(225, 21, 174);
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    padding: 15px;
+    background-color: darkgray;
+}
+.khan{
+    border: 10px solid purple;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    padding: 15px;
+    background-color: darkgrey;
+}
+
+h2 + p {
+    color: red;
+    background-color: darkgrey;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  h2 ~ p {
+    color: rgb(45, 0, 128);
+    font-style: italic;
+    padding: 10px;
+  }
+
+  button:hover {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  p::before {
+    content: "👉 ";
+    color: orange;
+    font-size: 30px;
+    background-color: darkgrey;
+    padding: 10px;
+  }
