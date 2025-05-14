@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.index{
+
+}
+
+.index h1{
+    position: relative;
+
+    background-color: blueviolet;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    z-index: 10;
+}
+.index p{
+    position: relative;
+    bottom:171px;
+    background-color: brown;
+    padding: 20px;
+    height: 200px;
+    z-index: 20;
+    width: 200px;
+}
