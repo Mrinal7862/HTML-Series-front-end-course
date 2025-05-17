@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    height:50%;
+    width:200vw;
+    background-color: blueviolet;
+    margin: 20px;
+    border: 10px solid black;
+    
+}
+h2{
+    height:50%;
+    width:200vw;
+    background-color: grey;
+    margin: 20px;
+    border: 10px solid black;
+}
+
+
+body{
+    padding: 20px;
+    color:white;
+    /*  */
+}
+
+div{
+    /* overflow:hidden; */
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+}
+
