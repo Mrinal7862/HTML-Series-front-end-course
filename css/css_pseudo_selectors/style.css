@@ -1,0 +1,12 @@
+.first p{
+    color:red;
+}
+
+.second > span > h1 + p + p{
+    color:red;
+}
+
+.Subsequent ~ p{
+    background-color: burlywood;
+    color: brown;
+}
