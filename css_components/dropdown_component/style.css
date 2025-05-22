@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navDrop{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    
+    
+}
+
+.navDrop span{
+    padding: 10px;
+    cursor: pointer;
+    
+    
+}
+.navComponent{
+    display: block;
+    visibility: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 8px 0px 0px 0px;
+    z-index: 10;
+    opacity: 0;
+    transition: all ease-in 0.1s;
+    
+
+}
+
+.navComponent ul {
+    list-style-type: none;
+    
+}
+
+.navComponent ul li {
+    padding: 6px 10px;
+    
+}
+
+.navComponent ul a{
+    text-decoration: none;
+    color: purple;
+    transition: all ease-in-out 0.2s;
+}
+
+
+.navDrop:hover .navComponent{
+    opacity: 1;
+    visibility: visible;
+
+    
+}
+
+.navComponent ul a:hover{
+    color: white;
+}
+
+.navComponent ul li:hover{
+    background-color: purple;
+}
