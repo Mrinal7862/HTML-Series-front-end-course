@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    left: 0;
+}
+
+h1 {
+    background-color: aquamarine;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: ballAnimate 2s ease-in-out infinite;
+}
+
+
+
+    /* from - to approach */
+    /* from{
+            transform: translateX(0);
+        }
+
+        to{
+            transform: translateX(500px);
+        } */
+    /* percentile approach */
+@keyframes ballAnimate{
+
+    
+    0%{
+        transform: translate(0px, 0px);
+    }
+    
+    20%{
+        transform: translate(200px, -80px);
+    }
+    
+    40% {
+        transform: translate(400px, 80px);
+    }
+    
+    60% {
+        transform: translate(400px, 300px);
+    }
+    
+    80% {
+        transform: translate(00px, 300px);
+    }
+    
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+

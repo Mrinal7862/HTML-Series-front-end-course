@@ -1,0 +1,27 @@
+.threed h1{
+    display: inline;
+    height: 500px;
+    /* padding: 60px; */
+    width: 500px;
+    /* text-align: center; */
+    /* transform: rotate(x, y); */
+    background-color: purple;
+    color: white;
+    
+}
+
+.threed{
+    transition: all ease-in 0.3s;
+}
+.threed:hover{
+    /* transform: translate3d(50px, 50px, 50px); */
+    transform: 
+        translateX(50px) 
+        translateY(50px)
+        translateZ(50px);
+    
+    background-color: greenyellow;
+
+
+}
+
