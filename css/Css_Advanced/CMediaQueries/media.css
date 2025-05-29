@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .outer img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+}

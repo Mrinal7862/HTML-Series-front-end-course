@@ -1,0 +1,25 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto auto;
+}
+.outer img {
+  animation: flicker 0.2s infinite;
+  transition: filter 0.2s ease;
+}
+
+/* @keyframes flicker {
+
+   0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Grow bigger */
+  }
+} */
+
+
